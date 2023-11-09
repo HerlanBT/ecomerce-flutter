@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Herlan\Desktop\Flutter Projects\tienda_god\build\windows\x64\CMakeFiles\825aa17a92aa05713d6b933ca08b32a8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C91A7800-B10D-3CAA-8159-2BABB3A38EEF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

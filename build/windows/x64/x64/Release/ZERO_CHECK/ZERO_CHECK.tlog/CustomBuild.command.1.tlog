@@ -1,0 +1,10 @@
+^C:\USERS\HERLAN\DESKTOP\FLUTTER PROJECTS\TIENDA_GOD\BUILD\WINDOWS\X64\CMAKEFILES\825AA17A92AA05713D6B933CA08B32A8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Herlan/Desktop/Flutter Projects/tienda_god/windows" "-BC:/Users/Herlan/Desktop/Flutter Projects/tienda_god/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Herlan/Desktop/Flutter Projects/tienda_god/build/windows/x64/tienda_god.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
